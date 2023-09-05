@@ -37,11 +37,15 @@ print("Maas: \(maas) ₺")
 var medeniDurum: String = "Bekar"
 print("Medeni Durum: \(medeniDurum)")
 
-//ürün yorum
+var urunYorumu: String = "Bu ürün harika!"
+print("Ürün Yorumu: \(urunYorumu)")
+
 let odemeTarihi = "11.11.2023"
 print("Ödeme Tarihi: \(odemeTarihi)")
 
-//ödeme
+var odeme: Double = 90.50
+print("Ödeme: $\(odeme)")
+
 var siparisAdeti: Int = 100
 print("Sipariş Adeti: \(siparisAdeti)")
 
@@ -123,7 +127,9 @@ print("Kalan Dakika: \(kalanDakika)")
 var takipKodu: String = "ABCDEFG"
 print("Takip Kodu: \(takipKodu)")
 
-//var kuponSüresi:
+let kuponSuresi = "12/12/2023"
+print("Kupon Süresi: \(kuponSuresi)")
+
 var kuponKodu: String = "AABBCCDD"
 print("Kupon Kodu: \(kuponKodu)")
 
